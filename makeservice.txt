@@ -1,0 +1,1 @@
+sudo forever-service install SensorLabMQTTtoThingSpeak --script SensorLabMQTTtoThingSpeak.js  -e "PATH=$PATH:/opt/bitnami/nodejs/bin/" -f " --watchDirectory /home/bitnami/Services/SensorLabMQTTtoThingSpeak/ -w"

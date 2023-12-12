@@ -1,0 +1,12 @@
+git status
+git add SensorLabMQTTtoThingSpeak.js
+git commit -m "work in progress"
+git push -u origin master
+
+sudo service SensorLabMQTTtoThingSpeak status
+sudo service SensorLabMQTTtoThingSpeak start
+sudo service SensorLabMQTTtoThingSpeak stop
+sudo service SensorLabMQTTtoThingSpeak restart
+
+
+
